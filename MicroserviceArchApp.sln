@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1ACD54F0-8F5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BF1E60C-40CE-43D3-B0BF-353ABCF497A4}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		ServiceUrls.txt = ServiceUrls.txt
 	EndProjectSection
 EndProject
@@ -20,51 +21,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{C380
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CCFAEDD1-AC94-41A3-81AB-BDCDAD7EF641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.ApiGateway", "src\ApiGateways\Web\Web.ApiGateway\Web.ApiGateway.csproj", "{150CE8FD-5B6A-4ACB-9526-CAA04214C39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.ApiGateway", "src\ApiGateways\Web\Web.ApiGateway\Web.ApiGateway.csproj", "{150CE8FD-5B6A-4ACB-9526-CAA04214C39A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{78FF0971-59AD-4B24-892A-343D6D11D381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Base", "src\BuildingBlocks\EventBus\EventBus.Base\EventBus.Base.csproj", "{7276631A-79AF-464C-8595-6298BB3BCF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Base", "src\BuildingBlocks\EventBus\EventBus.Base\EventBus.Base.csproj", "{7276631A-79AF-464C-8595-6298BB3BCF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Factory", "src\BuildingBlocks\EventBus\EventBus.Factory\EventBus.Factory.csproj", "{86E6BB80-B3F0-4B65-A958-97A0FA1DE5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Factory", "src\BuildingBlocks\EventBus\EventBus.Factory\EventBus.Factory.csproj", "{86E6BB80-B3F0-4B65-A958-97A0FA1DE5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.AzureServiceBus", "src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\EventBus.AzureServiceBus.csproj", "{65E05D17-3850-4031-9B5B-3FC50AC6AAE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.AzureServiceBus", "src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\EventBus.AzureServiceBus.csproj", "{65E05D17-3850-4031-9B5B-3FC50AC6AAE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "src\BuildingBlocks\EventBus\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{56318158-B728-42BA-A27E-929717F50A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.RabbitMQ", "src\BuildingBlocks\EventBus\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{56318158-B728-42BA-A27E-929717F50A00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{A8DCCE10-F2B6-4895-A6DB-A305888B97F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketService.WebApi", "src\Services\BasketService\BasketService.WebApi\BasketService.WebApi.csproj", "{828E6DA8-90CE-4871-B2B5-4F448322C609}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasketService.WebApi", "src\Services\BasketService\BasketService.WebApi\BasketService.WebApi.csproj", "{828E6DA8-90CE-4871-B2B5-4F448322C609}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{D81DD1DA-FA95-4521-AE10-79BAF7925DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.WebApi", "src\Services\CatalogService\CatalogService.WebApi\CatalogService.WebApi.csproj", "{21DE9C8D-FB41-4488-B060-76307F615CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.WebApi", "src\Services\CatalogService\CatalogService.WebApi\CatalogService.WebApi.csproj", "{21DE9C8D-FB41-4488-B060-76307F615CD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{579B9E09-21A8-4072-9BCF-E93733AA9F9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.WebApi", "src\Services\IdentityService\IdentityService.WebApi\IdentityService.WebApi.csproj", "{9A201D52-C155-4706-9742-82DCF9B81CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.WebApi", "src\Services\IdentityService\IdentityService.WebApi\IdentityService.WebApi.csproj", "{9A201D52-C155-4706-9742-82DCF9B81CFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{C1633E7E-EFB3-4C5A-8092-FC2D3D74E3E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\Services\NotificationService\NotificationService\NotificationService.csproj", "{DE91C8A0-D306-4D0D-8DB6-7EF6C390849B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "src\Services\NotificationService\NotificationService\NotificationService.csproj", "{DE91C8A0-D306-4D0D-8DB6-7EF6C390849B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{6C1CFDEC-1AA5-4BD0-9FD4-917B08AB8A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Domain", "src\Services\OrderService\OrderService.Domain\OrderService.Domain.csproj", "{E280DCBC-3375-4D24-8C52-815D0F121D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Domain", "src\Services\OrderService\OrderService.Domain\OrderService.Domain.csproj", "{E280DCBC-3375-4D24-8C52-815D0F121D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Application", "src\Services\OrderService\OrderService.Application\OrderService.Application.csproj", "{55E5ABBF-4C3C-4B5F-B57A-90DA07878235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Application", "src\Services\OrderService\OrderService.Application\OrderService.Application.csproj", "{55E5ABBF-4C3C-4B5F-B57A-90DA07878235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Infrastructure", "src\Services\OrderService\OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{4ECFD996-A274-4638-99DA-76313DEF8ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Infrastructure", "src\Services\OrderService\OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{4ECFD996-A274-4638-99DA-76313DEF8ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSService.Api", "src\Services\OrderService\OrderSService.Api\OrderSService.Api.csproj", "{C83E5318-448B-4717-B8F6-A0FBEF15D49F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSService.Api", "src\Services\OrderService\OrderSService.Api\OrderSService.Api.csproj", "{C83E5318-448B-4717-B8F6-A0FBEF15D49F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{BEA2532C-9255-4294-8228-37B1E52BDE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Api", "src\Services\PaymentService\PaymentService.Api\PaymentService.Api.csproj", "{D7F386FF-D08A-4B12-8E84-D70B61409EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Api", "src\Services\PaymentService\PaymentService.Api\PaymentService.Api.csproj", "{D7F386FF-D08A-4B12-8E84-D70B61409EB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWebApp", "BlazorWebApp", "{F479C1B8-C631-4ABC-B030-E39C1370E064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "src\Client\BlazorWebApp\WebApp\WebApp.csproj", "{A7E17191-CF56-49FD-A9B4-85AAE020DF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "src\Client\BlazorWebApp\WebApp\WebApp.csproj", "{A7E17191-CF56-49FD-A9B4-85AAE020DF13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
